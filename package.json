@@ -1,7 +1,6 @@
 {
   "name": "jenkins-anybar",
   "version": "1.0.0",
-  "main": "lib/bin/jenkins-anybar.js",
   "author": "mbektimirov",
   "license": "MIT",
   "scripts": {
