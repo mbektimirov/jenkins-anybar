@@ -1,16 +1,25 @@
 {
   "name": "jenkins-anybar",
   "version": "1.0.0",
-  "main": "lib/index.js",
+  "main": "lib/bin/jenkins-anybar.js",
   "author": "mbektimirov",
   "license": "MIT",
   "scripts": {
-    "build": "babel index.js service.js -d lib",
-    "test": "babel-node test.js"
+    "build": "babel script.js service.js bin/* -d lib",
+    "test": "babel-node test.js",
+    "prepublish": "npm run build"
   },
   "bin": {
-    "jenkins-anybar": "bin/jenkins-anybar.js"
+    "jenkins-anybar": "lib/bin/jenkins-anybar.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbektimirov/jenkins-anybar.git"
+  },
+  "keywords": [
+    "jenkins",
+    "anybar"
+  ],
   "dependencies": {
     "anybar": "^2.0.1",
     "babel-runtime": "^6.20.0",
