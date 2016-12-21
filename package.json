@@ -1,0 +1,28 @@
+{
+  "name": "jenkins-anybar",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "author": "mbektimirov",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel index.js service.js -d lib",
+    "test": "babel-node test.js"
+  },
+  "bin": {
+    "jenkins-anybar": "bin/jenkins-anybar.js"
+  },
+  "dependencies": {
+    "anybar": "^2.0.1",
+    "babel-runtime": "^6.20.0",
+    "jenkins": "^0.20.0",
+    "pm2": "^2.2.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0"
+  }
+}
