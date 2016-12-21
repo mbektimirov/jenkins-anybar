@@ -34,7 +34,7 @@ jenkins-anybar stop
 <img src="https://github.com/tonsky/AnyBar/raw/master/AnyBar/Resources/exclamation@2x.png?raw=true" width=19 /> Connection error or timeout
 
 ### Logs
-`jenkins-anybar` uses [pm2](unitech/pm2) process manager underneath, you can install it to get access to logs:
+`jenkins-anybar` uses [pm2](https://github.com/unitech/pm2) process manager underneath, you can install it to get access to logs:
 ```
 npm install -g pm2
 pm2 logs --lines 100
