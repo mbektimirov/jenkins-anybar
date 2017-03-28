@@ -10,6 +10,6 @@ describe("Calc tests", function() {
   });
 
   it("subtracts value", function() {
-    expect(2 - 3).to.equal(0);
+    expect(2 - 3).to.equal(-1);
   });
 });
