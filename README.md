@@ -1,4 +1,4 @@
-# Simple Jenkins monitoring with AnyBar
+# Simple Jenkins monitoring with AnyBar [and Drone CI]
 
 Install and run [AnyBar](https://github.com/tonsky/AnyBar) first:
 ```
